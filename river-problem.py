@@ -13,6 +13,17 @@ def isValid(state):
 # This function will need to call the function isValid(state)
 def get_next_states(state):
 
+    next_state = []
+    same_state = []
+
+    same_state.append(state)
+    
+        
+        
+       # if state == same_state[i]:
+       #     break
+
+
 
 # Define a recursive function that takes in a current_state and win_state and returns the path to those states using the Depth First Search algorithm
 # This function will need to call the function get_next_states(state), as well as itself
